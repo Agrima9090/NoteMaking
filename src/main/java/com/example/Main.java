@@ -8,8 +8,6 @@ import org.springframework.context.ApplicationContext;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 @SpringBootApplication
 public class Main {
-
-
     public static void main(String[] args) {
         ApplicationContext context= SpringApplication.run(Main.class,args);
 
