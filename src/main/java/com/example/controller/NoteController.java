@@ -16,7 +16,7 @@ import java.util.List;
 public class NoteController {
     @Autowired
     NoteService noteService;
-    @RequestMapping("/start")
+    @RequestMapping("/")
     public String showWelcomePage()
     {
         return "welcome";
